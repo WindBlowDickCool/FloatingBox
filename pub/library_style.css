@@ -1,0 +1,49 @@
+#nevBar{
+    display: block;
+    background-color: aqua;
+    width: 90%;
+    height: 150px; margin: auto;
+}
+#sideStepBar{
+	border: solid 2px purple;
+	border-radius: 5%;
+	
+}
+
+#sideBar{
+	border: solid 2px purple;
+	border-radius: 5%;
+	
+}
+.content{
+    display: inline-block;
+    width: 23%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+a{
+	font-size: 20px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	transition: .5s;
+}
+a:hover{
+	letter-spacing: 4px;
+	font-size: 25px;
+}
+
+button {
+	margin-top: 10px;
+    border:solid;
+    border-radius: 10%;
+    color:blue;
+    text-align: center;
+    transition: .5s;
+}
+
+button:hover{
+    letter-spacing: 3px;
+}

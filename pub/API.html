@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="index.css">
+    <title>API</title>
+ 
+
+ </head>
+ <body>
+	<a class='landing' style="margin-top:30px;" href="index.html">Home</a>
+	
+	<table>
+		<thead>
+			<tr>
+				<th>User Functions</th>
+				<th>Inputs</th>
+				<th>Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>makeNevBar </td>
+				<td> /</td>
+				<td>This function creates a div with id of 'nevBar', which is the basic container for all the categories.</td>
+			</tr>
+			<tr>
+				<td>makeSideBar </td>
+				<td> /</td>
+				<td>This function creates a div with id of 'sideBar', which is the floating box that's going to hold all the categories in the Navigation Bar.</td>
+				
+			</tr>
+			<tr>
+				<td>makeSideStepBar </td>
+				<td>String title</td>
+				<td>This function creates a box that floats at the left of the screen. It's the container that holds all the text information, so that it works as a memo for the user.</td>
+				
+			</tr>
+			<tr>
+				<td>addNevBarContent </td>
+				<td>String name, String href</td>
+				<td>This function takes the name of a category and the hyper-referece link as input. It adds an 'a' element in the Navigation Bar created by 'makeNevBar'. That 'a' links to the destination pointed by input 'href'.</td>		
+			</tr>
+			<tr>
+				<td>addSideBarContent </td>
+				<td>String name, String href</td>
+				<td>This function takes the name of a category and the hyper-referece link as input. It adds an 'a' element in the floating side bar created by 'makeSideBar'. That 'a' links to the destination pointed by input 'href'.</td>		
+			</tr>
+			<tr>
+				<td>addSideStepBarContent </td>
+				<td>String name</td>
+				<td>This function takes String 'name' as input and add it to the floatng box created by makeSideStepBar.</td>		
+			</tr>		
+		</tbody>
+	</table>
+	
+
+ </body>
+
+</html>
